@@ -1,0 +1,21 @@
+version: '2.3'
+
+services:
+ ray:
+  build: .
+  stdin_open: true
+  tty: true
+  runtime: nvidia
+  user: "1000:1000"
+  volumes:
+    - '/home/ascientist:/workspace/'
+    - type: tmpfs
+      target: /dev/shm
+      tmpfs:
+        size: 8000000000 # ~8g
+  ports:
+    - 8888
+    - 6006
+  dns:
+    - 8.8.8.8
+    - 8.8.0.0
