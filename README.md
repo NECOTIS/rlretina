@@ -64,6 +64,8 @@ account, module, and path lines to your environment.
 
 ## Roadmap
 
+> 📐 Detailed engineering plan for the GPU-native refactor: [`docs/REFACTOR_PLAN.md`](docs/REFACTOR_PLAN.md).
+
 - [ ] **GPU-native environment.** Re-implement the AxonMap forward model so the
       *same* percept computation runs on **JAX or PyTorch on GPU** (the current
       pulse2percept path is CPU-bound and dominates wall-clock). This is the main
