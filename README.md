@@ -80,13 +80,19 @@ account, module, and path lines to your environment.
 If you use this code, please cite:
 
 ```bibtex
-@article{lavoie2024learningtosee,
-  title   = {Learning to See via Epiretinal Implant Stimulation in silico
-             with Model-Based Deep Reinforcement Learning},
-  author  = {Lavoie, Jacob and others},
-  journal = {Biomedical Physics \& Engineering Express},
-  year    = {2024},
-  doi     = {10.1088/2057-1976/acf1a5}
+@article{lavoie2024learning,
+  title     = {Learning to See via Epiretinal Implant Stimulation in silico with Model-Based Deep Reinforcement Learning},
+  author    = {Lavoie, Jacob and Besrour, Mohammed and Lemaire, William and Rouat, Jean and Fontaine, R{\'e}jean and Plourde, Eric},
+  journal   = {Biomedical Physics \& Engineering Express},
+  volume    = {10},
+  number    = {2},
+  pages     = {025006},
+  year      = {2024},
+  publisher = {IOP Publishing},
+  doi       = {10.1088/2057-1976/acf1a5},
+  eprint    = {2606.03118},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG}
 }
 ```
 
